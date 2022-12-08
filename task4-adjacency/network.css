@@ -1,0 +1,71 @@
+.grid {
+  stroke: #9A8B7A;
+  stroke-width: 1px;
+  fill: #cf1c3a;
+}
+
+#wrapper {
+  float:left;
+} 
+#legends{
+  margin-top:100px;
+}
+#row-legends{
+  float:left;
+  width: 200px; 
+}
+#column-legends{
+  float:left;
+  width: 200px; 
+}
+
+.legend{
+  stroke: #9A8B7A;
+  stroke-width: 1px;
+  width: 10px;
+  height: 10px;
+}
+
+.США {
+  fill: darkblue;
+}
+.Великобритания{
+  fill: darkorange;
+}
+.Франция{
+  fill: darkcyan;
+}
+.Италия{
+  fill: darkgreen;
+}
+.Россия{
+  fill: red;
+}
+.Япония{
+  fill: darkturquoise;
+}
+.международная{
+  fill: purple;
+}
+
+.космический-аппарат{
+  fill: darkblue;
+}
+.космическая-программа{
+  fill: darkorange;
+}
+.ракета-носитель{
+  fill: darkcyan;
+}
+.самолет{
+  fill: darkgreen;
+}
+.телекоммуникация{
+  fill: red;
+}
+.аэрокосмическая-компания{
+  fill: darkturquoise;
+}
+.авиакомпания{
+  fill: purple;
+}
