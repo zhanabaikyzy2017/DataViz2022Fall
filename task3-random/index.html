@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RandomDataPlot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+</head>
+<body>
+
+    
+<div id="wrapper">
+    <div id="plot">
+        <svg id="plot-svg">
+            <defs>
+                <marker
+                        id="arrow"
+                        viewBox="0 0 20 20"
+                        refX="15"
+                        refY="15"
+                        markerWidth="13"
+                        markerHeight="13"
+                        orient="auto-start-reverse">
+                    <path d="M 0 0 L 20 10 L 0 20 z" />
+                </marker>
+            </defs>
+        </svg>
+    </div>
+
+</div>
+<div id="legends">
+    <svg width="10" height="10">
+        <circle cx="5" cy="5" r="5" fill="green"/>
+    </svg>
+    <label>Circle data</label>
+    <br>
+    <svg width="10" height="10">
+        <rect x="0" y="0" width="7" height="7" style="transform: translate(5px) rotate(45deg)" fill="red"/>
+    </svg>
+    <label>Rhombus data</label>
+</div>
+
+</div>
+<div id="buttons">
+    <button onclick="generate()" id="generateButton">Generate</button>
+    <button onclick="clearScreen()" id="clearButton">Clear</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
